@@ -1,2 +1,2 @@
-# pythone_practice
+# python_practice
 Simple python files
