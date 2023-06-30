@@ -1,3 +1,3 @@
 ### Run Project
-cd /freecodecademy
+cd /codeCademy
 jupyter notebook
