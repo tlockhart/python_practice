@@ -1,3 +1,4 @@
+#import datelime module and import datetime function from it
 from datetime import datetime
 
 def get_day_of_week(key):
@@ -18,8 +19,10 @@ key = 3  # Assuming key = 3
 day_of_week = get_day_of_week(key)
 print(day_of_week)  # Output: "Wednesday"
 
+# create a datetime
 birthday = datetime(1978, 4, 5, 23, 12)
 
+# Manipulate datetime:
 print(birthday)
 print(birthday.year)
 print(birthday.month)
@@ -32,6 +35,8 @@ print(datetime.now())
 datetime_dif = datetime(2018, 1, 1) - datetime(2017, 1, 1)
 print(datetime_dif)
 print(datetime.now() - datetime(2018, 1, 1))
+
+#String parse time: Parse a string representing a date and time
 parsed_date = datetime.strptime("Jan 15, 2018",  "%b %d, %Y")
 print("Month:",parsed_date.month)
 
